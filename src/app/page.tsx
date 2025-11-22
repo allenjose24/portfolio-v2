@@ -1,13 +1,15 @@
 import Hero from "@/components/sections/Hero";
+import Projects from "@/components/sections/Projects";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen w-full overflow-x-hidden">
+    <main className="relative min-h-screen w-full overflow-x-hidden bg-background">
       <Hero />
+      <Projects />
       
-      {/* We will add the Projects section here next! */}
-      <section className="h-screen flex items-center justify-center text-gray-400">
-        (Projects Section Coming Soon...)
+      {/* Spacer for next sections */}
+      <section className="h-40 flex items-center justify-center text-gray-400">
+        (Skills & Experience Coming Next...)
       </section>
     </main>
   );
